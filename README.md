@@ -1,11 +1,5 @@
-# ROBOT LAB 4.0 — Modelos de piezas diferentes
+# ROBOT LAB 4.1 — Preguntas actualizadas
 
-Juego educativo para GitHub Pages, sin dependencias.
+Actualizadas las preguntas principales sobre el telar de Jacquard y las aplicaciones en industria y logística, y las preguntas de reparación sobre automatización y entornos peligrosos. Se mantienen las cinco preguntas principales, el ensamblaje, los tres modelos por pieza, la penalización y el sistema de reparación.
 
-## Novedad
-Cada una de las cinco piezas (piernas, torso, brazos, cabeza y sensor) tiene tres modelos vectoriales **con siluetas y componentes realmente diferentes**: clásico, industrial y futurista. Se muestran miniaturas reales antes de elegir y pueden combinarse libremente.
-
-Se conservan las preguntas, las piezas perdidas por errores, las preguntas de reparación, las animaciones, el arrastrar y soltar y los seis colores. En móviles también se puede tocar el modelo y tocar el robot.
-
-## Publicación
-Reemplaza el archivo `index.html` del repositorio de GitHub Pages y haz commit. La dirección y el QR no cambian.
+Para publicar: reemplaza `index.html` en tu repositorio GitHub Pages. El enlace y QR permanecen iguales.
