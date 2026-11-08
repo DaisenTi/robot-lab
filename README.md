@@ -1,12 +1,14 @@
-# ROBOT LAB — versión 2
+# ROBOT LAB 3.0
 
-Juego web estático para GitHub Pages.
+Juego educativo sobre historia de la robótica. Funciona sin servidores: HTML, CSS y JavaScript.
 
 ## Novedades
-- Tras cada acierto, se escoge entre tres estilos para la pieza desbloqueada y se instala manualmente.
-- Cada error retira la última pieza instalada (si hay alguna).
-- Al terminar las cinco preguntas principales, se habilitan preguntas extra de reparación hasta reconstruir las cinco piezas.
-- Cuatro colores y contador de errores y tiempo.
+- Arrastrar diseños al escenario con ratón o pantalla táctil.
+- Alternativa accesible: seleccionar diseño y tocar robot o pulsar «Instalar».
+- Animaciones de ensamblaje, partículas y desprendimiento al fallar.
+- Tres variantes independientes por pieza y seis colores.
+- Conserva cinco preguntas, penalizaciones y preguntas de reparación.
+- El robot terminado se muestra en el resultado final.
 
 ## Publicar
-Sustituye el archivo `index.html` de la raíz de tu repositorio GitHub Pages por este archivo y confirma los cambios. Conserva el mismo repositorio y URL: tu código QR seguirá funcionando.
+Reemplaza el `index.html` del repositorio de GitHub Pages por este archivo. El enlace y QR no cambian.
