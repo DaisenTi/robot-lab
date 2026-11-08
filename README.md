@@ -1,20 +1,12 @@
-# ROBOT LAB — Juego de historia de la robótica
+# ROBOT LAB — versión 2
 
-Juego estático de 5 preguntas y ensamblaje progresivo de un robot. No requiere cuentas, base de datos ni servicios de terceros.
+Juego web estático para GitHub Pages.
 
-## Publicarlo en GitHub Pages
-1. Crea un repositorio público en GitHub, por ejemplo `robot-lab`.
-2. Sube el archivo `index.html` a la raíz del repositorio (puedes subir también este README).
-3. Abre **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**, rama **main**, carpeta **/(root)** y pulsa **Save**.
-5. Espera a que GitHub publique el sitio. La dirección suele ser `https://TU-USUARIO.github.io/robot-lab/` (sustituye el usuario y comprueba la URL real en Pages).
-6. Abre el enlace en un celular y comprueba que el juego funcione.
+## Novedades
+- Tras cada acierto, se escoge entre tres estilos para la pieza desbloqueada y se instala manualmente.
+- Cada error retira la última pieza instalada (si hay alguna).
+- Al terminar las cinco preguntas principales, se habilitan preguntas extra de reparación hasta reconstruir las cinco piezas.
+- Cuatro colores y contador de errores y tiempo.
 
-## Código QR
-Cuando tengas la URL definitiva, puedes generar un QR con `https://www.qr-code-generator.com/` o `https://goqr.me/`. Pega la URL publicada, descarga el QR e insértalo en tu diapositiva 8. Verifica que el QR abra el juego desde otro dispositivo.
-
-## Editar preguntas
-En `index.html`, busca `const questions=[` y modifica las preguntas y opciones. El campo `correct` usa índices 0, 1, 2 para las opciones A, B, C.
-
-## Uso académico
-Preguntas basadas en la presentación sobre la evolución histórica de la robótica y la inteligencia artificial. El juego no almacena datos personales.
+## Publicar
+Sustituye el archivo `index.html` de la raíz de tu repositorio GitHub Pages por este archivo y confirma los cambios. Conserva el mismo repositorio y URL: tu código QR seguirá funcionando.
